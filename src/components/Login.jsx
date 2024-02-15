@@ -27,7 +27,7 @@ const Login = () => {
         dispatch(setLoggedIn(true));
 
         // Redirect to the authenticated route
-        navigate('/');
+        navigate('/profile');
       } catch (error) {
         console.error('Login failed:', error);
         alert('Login failed. Please check your credentials.');

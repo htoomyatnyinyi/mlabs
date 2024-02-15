@@ -10,9 +10,10 @@ const Home = () => {
           <TopBar />
           <h3 className='bg-gray-200 p-1 m-1 text-pretty text-3xl rounded-md text-center flex-wrap'>Hi form HOme</h3>
         </div>
-        <div>
+        <div className='flex-auto p-1'>
           <Link to="upload" className='bg-gray-100 p-1 rounded-md m-1'>Here to upload</Link>
           <Link to="login" className='bg-gray-100 p-1 rounded-md m-1'>Here to login</Link>
+          <Link to="profile" className='bg-gray-100 p-1 rounded-md m-1'>Here to Profile</Link>
         </div>
 
         {/* <button onClick={fetchAPI_Mlab()}>Fetch Function</button> */}

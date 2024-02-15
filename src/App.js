@@ -6,6 +6,7 @@ import Upload from "./components/Upload";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Api from "./components/Api";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/api/config" element={<Api />} />
         <Route path="/*" element={<Login />} />
+        <Route path="/profile" element={<Dashboard />} />
       </Routes>
     </Router>
   );

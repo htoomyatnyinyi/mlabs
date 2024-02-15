@@ -15,6 +15,7 @@ function App() {
         <Route path="/upload" element={<Upload />} />
         <Route path="/login" element={<Login />} />
         <Route path="/api/config" element={<Api />} />
+        <Route path="/*" element={<Login />} />
       </Routes>
     </Router>
   );
